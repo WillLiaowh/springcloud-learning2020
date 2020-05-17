@@ -2,6 +2,9 @@ server:
   port: 8001
 
 spring:
+  devtools:
+    restart:
+      enabled: true
   application:
     name: cloud-payment-service
   datasource:

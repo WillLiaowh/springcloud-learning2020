@@ -1,8 +1,8 @@
 package com.liaowh.springcloud.controller;
 
+import com.liaowh.springcloud.service.PaymentService;
 import com.liaowh.springcloud.entities.CommonResult;
 import com.liaowh.springcloud.entities.Payment;
-import com.liaowh.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
@@ -24,7 +24,7 @@ public class PaymentController
     public CommonResult create(@RequestBody Payment payment)
     {
         int result = paymentService.create(payment);
-        log.info("*****插入结果："+result);
+        log.info("*****插入结果："+result );
 
         if(result > 0)
         {
