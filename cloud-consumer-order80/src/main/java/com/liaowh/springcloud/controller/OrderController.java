@@ -1,4 +1,4 @@
-package springcloud.controller;
+package com.liaowh.springcloud.controller;
 
 import com.liaowh.springcloud.entities.CommonResult;
 import com.liaowh.springcloud.entities.Payment;
@@ -10,17 +10,13 @@ import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
 
-/**
- * @auther zzyy
- * @create 2020-02-18 17:23
- */
 @RestController
 @Slf4j
 public class OrderController
 {
-    public static final String PAYMENT_URL = "http://localhost:8001";
+    //public static final String PAYMENT_URL = "http://localhost:8001";
 
-    //public static final String PAYMENT_URL = "http://CLOUD-PAYMENT-SERVICE";
+    public static final String PAYMENT_URL = "http://CLOUD-PAYMENT-SERVICE";
 
     @Resource
     private RestTemplate restTemplate;
