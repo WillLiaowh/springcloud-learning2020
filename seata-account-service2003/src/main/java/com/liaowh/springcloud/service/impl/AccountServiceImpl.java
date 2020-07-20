@@ -11,10 +11,7 @@ import javax.annotation.Resource;
 import java.math.BigDecimal;
 import java.util.concurrent.TimeUnit;
 
-/**
- * 账户业务实现类
- * Created by zzyy on 2019/11/11.
- */
+
 @Service
 public class AccountServiceImpl implements AccountService {
 

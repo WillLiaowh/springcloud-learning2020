@@ -7,10 +7,7 @@ import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
 
-/**
- * @auther zzyy
- * @create 2020-02-19 15:21
- */
+
 @RestController
 @Slf4j
 public class OrderEKController

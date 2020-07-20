@@ -7,10 +7,7 @@ import org.springframework.cloud.stream.messaging.Sink;
 import org.springframework.messaging.Message;
 import org.springframework.stereotype.Component;
 
-/**
- * @auther zzyy
- * @create 2020-02-22 11:57
- */
+
 @Component
 @EnableBinding(Sink.class)
 public class ReceiveMessageListenerController

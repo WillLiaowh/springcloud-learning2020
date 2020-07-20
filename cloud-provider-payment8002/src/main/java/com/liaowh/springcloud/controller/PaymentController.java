@@ -9,10 +9,7 @@ import com.liaowh.springcloud.service.PaymentService;
 
 import javax.annotation.Resource;
 
-/**
- * @auther zzyy
- * @create 2020-02-18 10:43
- */
+
 @RestController
 @Slf4j
 public class PaymentController

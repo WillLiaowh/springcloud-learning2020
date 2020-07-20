@@ -9,10 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * @auther zzyy
- * @create 2020-02-24 16:26
- */
+
 @RestController
 @Slf4j
 public class FlowLimitController

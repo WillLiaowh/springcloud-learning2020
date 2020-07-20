@@ -9,10 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.HashMap;
 
-/**
- * @auther zzyy
- * @create 2020-02-25 16:13
- */
+
 @RestController
 public class PaymentController
 {

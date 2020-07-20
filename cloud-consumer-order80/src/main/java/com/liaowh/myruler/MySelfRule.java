@@ -5,10 +5,7 @@ import com.netflix.loadbalancer.RandomRule;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-/**
- * @auther zzyy
- * @create 2020-02-19 19:00
- */
+
 @Configuration
 public class MySelfRule
 {

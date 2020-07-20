@@ -5,10 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
-/**
- * @auther zzyy
- * @create 2020-02-20 11:55
- */
+
 @SpringBootApplication
 @EnableFeignClients
 @EnableHystrix

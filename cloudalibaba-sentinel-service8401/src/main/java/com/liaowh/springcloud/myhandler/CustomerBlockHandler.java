@@ -3,10 +3,7 @@ package com.liaowh.springcloud.myhandler;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
 import com.liaowh.springcloud.entities.CommonResult;
 
-/**
- * @auther zzyy
- * @create 2020-02-25 15:32
- */
+
 public class CustomerBlockHandler
 {
     public static CommonResult handlerException(BlockException exception)

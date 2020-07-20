@@ -7,10 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.UUID;
 
-/**
- * @auther zzyy
- * @create 2020-02-19 16:06
- */
+
 @RestController
 @Slf4j
 public class PaymentController

@@ -2,10 +2,7 @@ package com.liaowh.springcloud.service;
 
 import org.springframework.stereotype.Component;
 
-/**
- * @auther zzyy
- * @create 2020-02-20 18:22
- */
+
 @Component
 public class PaymentFallbackService implements PaymentHystrixService
 {

@@ -8,10 +8,7 @@ import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Bean;
 
-/**
- * @auther zzyy
- * @create 2020-02-20 11:10
- */
+
 @SpringBootApplication
 @EnableEurekaClient
 @EnableCircuitBreaker

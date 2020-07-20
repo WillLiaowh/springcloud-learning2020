@@ -11,10 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 
-/**
- * @auther zzyy
- * @create 2020-02-20 11:57
- */
+
 @RestController
 @Slf4j
 @DefaultProperties(defaultFallback = "payment_Global_FallbackMethod")
