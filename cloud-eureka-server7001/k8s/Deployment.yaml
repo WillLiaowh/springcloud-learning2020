@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: eureka7001
+  labels:
+    app: eureka7001
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: eureka7001
+  template:
+    metadata:
+      labels:
+        app: eureka7001
+    spec:
+      containers:
+      - name: eureka7001
+        image: registry.cn-hangzhou.aliyuncs.com/willliaowh/eureka7001:0.0.1
+        ports:
+        - containerPort: 7001
+
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: eureka7001
+  labels:
+    app: eureka7001
+spec:
+  selector:
+    app: eureka7001
+  ports:
+  - port: 7001
+    targetPort: 7001
+    nodePort: 31000
+  type: NodePort
+
